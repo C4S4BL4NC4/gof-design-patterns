@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\liberty\\source\\repos\\gof-design-patterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA448D68-5E72-46BA-A861-B5B4715B32FC}|gof-design-patterns\\gof-design-patterns.csproj|c:\\users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA448D68-5E72-46BA-A861-B5B4715B32FC}|gof-design-patterns\\gof-design-patterns.csproj|solutionrelative:gof-design-patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67D88907-AE1E-51E0-2856-78BAF29829E2}|gof-design-patterns\\gof-design-patterns.csproj|c:\\users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D88907-AE1E-51E0-2856-78BAF29829E2}|gof-design-patterns\\gof-design-patterns.csproj|solutionrelative:gof-design-patterns\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA448D68-5E72-46BA-A861-B5B4715B32FC}|gof-design-patterns\\gof-design-patterns.csproj|c:\\users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\oop.pricaples.encapulation\\badbankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA448D68-5E72-46BA-A861-B5B4715B32FC}|gof-design-patterns\\gof-design-patterns.csproj|solutionrelative:gof-design-patterns\\oop.pricaples.encapulation\\badbankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67D88907-AE1E-51E0-2856-78BAF29829E2}|gof-design-patterns\\gof-design-patterns.csproj|c:\\users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\oop\\pricaples\\encapulation\\badbankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67D88907-AE1E-51E0-2856-78BAF29829E2}|gof-design-patterns\\gof-design-patterns.csproj|solutionrelative:gof-design-patterns\\oop\\pricaples\\encapulation\\badbankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,14 +24,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BadBankAccount.cs",
-              "DocumentMoniker": "C:\\Users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\OOP.Pricaples.Encapulation\\BadBankAccount.cs",
-              "RelativeDocumentMoniker": "gof-design-patterns\\OOP.Pricaples.Encapulation\\BadBankAccount.cs",
-              "ToolTip": "C:\\Users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\OOP.Pricaples.Encapulation\\BadBankAccount.cs",
-              "RelativeToolTip": "gof-design-patterns\\OOP.Pricaples.Encapulation\\BadBankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\OOP\\Pricaples\\Encapulation\\BadBankAccount.cs",
+              "RelativeDocumentMoniker": "gof-design-patterns\\OOP\\Pricaples\\Encapulation\\BadBankAccount.cs",
+              "ToolTip": "C:\\Users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\OOP\\Pricaples\\Encapulation\\BadBankAccount.cs",
+              "RelativeToolTip": "gof-design-patterns\\OOP\\Pricaples\\Encapulation\\BadBankAccount.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-18T23:19:07.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-18T23:19:07.131Z"
             },
             {
               "$type": "Document",
@@ -41,7 +40,7 @@
               "RelativeDocumentMoniker": "gof-design-patterns\\Program.cs",
               "ToolTip": "C:\\Users\\liberty\\source\\repos\\gof-design-patterns\\gof-design-patterns\\Program.cs",
               "RelativeToolTip": "gof-design-patterns\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-18T23:07:18.255Z",
               "EditorCaption": ""

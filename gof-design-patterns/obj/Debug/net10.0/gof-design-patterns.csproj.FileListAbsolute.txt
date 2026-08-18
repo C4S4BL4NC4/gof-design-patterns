@@ -12,3 +12,4 @@ C:\Users\liberty\source\repos\gof-design-patterns\gof-design-patterns\obj\Debug\
 C:\Users\liberty\source\repos\gof-design-patterns\gof-design-patterns\obj\Debug\net10.0\gof-design-patterns.pdb
 C:\Users\liberty\source\repos\gof-design-patterns\gof-design-patterns\obj\Debug\net10.0\gof-design-patterns.genruntimeconfig.cache
 C:\Users\liberty\source\repos\gof-design-patterns\gof-design-patterns\obj\Debug\net10.0\ref\gof-design-patterns.dll
+C:\Users\liberty\source\repos\gof-design-patterns\gof-design-patterns\obj\Debug\net10.0\gof-design-patterns.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gof-design-patterns")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43d2e5149b12617a010b67c8954e173a4f2d1d06")]
 [assembly: System.Reflection.AssemblyProductAttribute("gof-design-patterns")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gof-design-patterns")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
