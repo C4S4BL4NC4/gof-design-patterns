@@ -72,8 +72,8 @@ HighOrder badOrder = new HighOrder();
 badOrder.PlaceOrder();
 
 // Good Coupling: The LowOrder class is loosely coupled to the INotificationService interface, which means that it can work with any implementation of the INotificationService interface. This makes the code more flexible and easier to maintain.
-LowOrder goodOrder = new LowOrder();
-goodOrder.PlaceOrder();
+LowOrder goodOrder = new LowOrder(new BetterEmailSender());
+goodOrder.SendNotification("Order placed successfully with low coupling class.");
 
 
 /*************************************************************/
