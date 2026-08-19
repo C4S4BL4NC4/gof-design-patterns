@@ -1,6 +1,6 @@
-﻿using gof_design_patterns.OOP.Pricaples.Encapulation;
-using gof_design_patterns.OOP.Principles.Abstraction;
+﻿using gof_design_patterns.OOP.Principles.Abstraction;
 using gof_design_patterns.OOP.Principles.Coupling;
+using gof_design_patterns.OOP.Principles.Encapsulation;
 using gof_design_patterns.OOP.Principles.Inheritance;
 
 /*

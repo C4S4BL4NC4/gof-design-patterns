@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace gof_design_patterns.OOP.Pricaples.Encapulation
+namespace gof_design_patterns.OOP.Principles.Encapsulation
 {
     internal class BadBankAccount
     {
