@@ -55,3 +55,22 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Debug symbols
+*.pdb
+
+# User-specific files
+*.user
+*.suo
+
+# SQLite databases (if local/test data, not schema)
+*.sqlite
+*.sqlite3
+*.db
+
+# Visual Studio cache/options
+.vs/
