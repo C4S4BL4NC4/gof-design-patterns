@@ -1,4 +1,5 @@
 ﻿using gof_design_patterns.OOP.Principles.Abstraction;
+using gof_design_patterns.OOP.Principles.Composition;
 using gof_design_patterns.OOP.Principles.Coupling;
 using gof_design_patterns.OOP.Principles.Encapsulation;
 using gof_design_patterns.OOP.Principles.Inheritance;
@@ -49,7 +50,8 @@ betterEmailService.SendEmail();
 // Polymorphism is to make an object take many forms. It allows methods to do different things based on the object it is acting upon, even if they share the same name.
 Console.WriteLine("\n" + "Inheritance and Polymorphism:");
 
-Car car = new Car("Toyota", "Camry", 2024, 4);
+gof_design_patterns.OOP.Principles.Inheritance.Car car =
+    new gof_design_patterns.OOP.Principles.Inheritance.Car("Toyota", "Camry", 2024, 4);
 Console.WriteLine(car.ToString());
 car.Start();
 car.Stop();
@@ -76,5 +78,16 @@ LowOrder goodOrder = new LowOrder(new BetterEmailSender());
 goodOrder.PlaceOrder();
 LowOrder smsOrder = new LowOrder(new SmsSender());
 smsOrder.PlaceOrder();
+
+/*************************************************************/
+
+// Composition of parts is a design principle that allows you to build complex objects by combining simpler ones, rather than relying on inheritance. It promotes code reuse and flexibility by allowing you to change the behavior of an object at runtime by changing its components.
+Console.WriteLine("\n" + "Composition:");
+
+gof_design_patterns.OOP.Principles.Composition.Car civic =
+    new gof_design_patterns.OOP.Principles.Composition.Car();
+
+civic.StartCar();
+
 
 /*************************************************************/
