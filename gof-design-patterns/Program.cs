@@ -220,3 +220,27 @@ Design patterns
 */
 
 /*************************************************************/
+
+// Memento Pattern: most useful for implementing undo functionality and implementing snapshots of an object's state.
+// The downsight is that it can be memory intensive, as it requires storing the entire state of an object at a given point in time.
+
+Console.WriteLine("\n" + "Design Patterns:");
+Console.WriteLine("- Behavioral Patterns:");
+Console.WriteLine("Memento Pattern: most useful for implementing undo functionality.");
+
+var editor = new gof_design_patterns.OOP.DesignPatterns.Behavioral.Memento.Editor();
+var history = new gof_design_patterns.OOP.DesignPatterns.Behavioral.Memento.History(editor);
+history.Backup();
+editor.Title = "Forrest Gump";
+history.Backup();
+editor.Content = "Life is like a box of chocolates.";
+history.Backup();
+editor.Title = "The Shawshank Redemption";
+Console.WriteLine($"Title: {editor.Title}");
+Console.WriteLine($"Content: {editor.Content}");
+history.Undo();
+Console.WriteLine($"Title: {editor.Title}");
+Console.WriteLine($"Content: {editor.Content}");
+history.ShowHistory();
+
+/*************************************************************/
