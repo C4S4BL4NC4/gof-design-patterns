@@ -84,10 +84,42 @@ smsOrder.PlaceOrder();
 // Composition of parts is a design principle that allows you to build complex objects by combining simpler ones, rather than relying on inheritance. It promotes code reuse and flexibility by allowing you to change the behavior of an object at runtime by changing its components.
 Console.WriteLine("\n" + "Composition:");
 
+// Generally composition is preferred over inheritance, as it allows for more flexibility and code reuse.
+
 gof_design_patterns.OOP.Principles.Composition.Car civic =
     new gof_design_patterns.OOP.Principles.Composition.Car();
 
 civic.StartCar();
 
+/*************************************************************/
+
+/*
+ *
+ *
+UML is a standardized modeling language that is used to visualize the design of a system.
+It provides a set of graphical notations to create visual models of object-oriented software systems.
+UML diagrams can be used to represent various aspects of a system, including its structure, behavior, and interactions between components.
+ *
+ *
+ */
+
+/*************************************************************/
+
+/*
+SOLID PRINCIPLES:
+S: Single Responsibility Principle (SRP): A class should have only one reason to change, meaning it should have only one responsibility or job. This makes the class easier to understand, maintain, and test.
+O: Open/Closed Principle (OCP): Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means that you should be able to add new functionality to a class without changing its existing code, which helps to prevent introducing bugs and breaking existing functionality.
+L: Liskov Substitution Principle (LSP): Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. This means that subclasses should behave in a way that is consistent with the expectations set by their superclass, ensuring that the program remains correct when using polymorphism.
+I: Interface Segregation Principle (ISP): Clients should not be forced to depend on interfaces they do not use. This means that you should create small, specific interfaces rather than large, general ones, which helps to reduce coupling and increase flexibility.
+D: Dependency Inversion Principle (DIP): High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces). This means that you should depend on abstractions rather than concrete implementations, which helps to reduce coupling and increase flexibility.
+*/
+
+/*************************************************************/
+
+// SRP: Single Responsibility Principle (SRP)
+// A class should only do one thing, and do it well.
+// SRP classes can use (borrow) methods from other classes to accomplish its task, but it should not implement raw logic that is not related to its primary responsibility.
+
+Console.WriteLine("\n" + "SOLID Principles::SRP");
 
 /*************************************************************/
