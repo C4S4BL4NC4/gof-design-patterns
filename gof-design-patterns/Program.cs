@@ -191,3 +191,32 @@ tesla.StartCar();
 tesla.StopCar();
 
 /*************************************************************/
+
+/*
+ 
+Design patterns
+    Provide standardized solutions to common problems in software design.
+    There are many design patterns, but the most common ones are the following:
+ 
+ - Creational patterns: (different ways to create objects) These patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+                        The basic form of object creation could result in design problems or added complexity to the design.
+                        Creational design patterns solve this problem by somehow controlling this object creation.
+
+                        Examples: Singleton, Factory Method, Abstract Factory, Builder, Prototype
+
+
+ - Structural patterns: (relationships between objects) These patterns deal with object composition, creating relationships between objects to form larger structures.
+                        They help ensure that if one part of a system changes, the entire system doesn't need to do the same.
+
+                        Examples: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
+
+
+ - Behavioral patterns: (communication and interaction between these objects) These patterns deal with object collaboration and responsibility.
+                        They help ensure that objects can communicate and work together effectively, while also promoting flexibility and reusability.
+
+                        Examples: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
+
+
+*/
+
+/*************************************************************/
