@@ -50,8 +50,7 @@ betterEmailService.SendEmail();
 // Polymorphism is to make an object take many forms. It allows methods to do different things based on the object it is acting upon, even if they share the same name.
 Console.WriteLine("\n" + "Inheritance and Polymorphism:");
 
-gof_design_patterns.OOP.Principles.Inheritance.Car car =
-    new gof_design_patterns.OOP.Principles.Inheritance.Car("Toyota", "Camry", 2024, 4);
+var car = new gof_design_patterns.OOP.Principles.Inheritance.Car("Toyota", "Camry", 2024, 4);
 Console.WriteLine(car.ToString());
 car.Start();
 car.Stop();
@@ -86,8 +85,7 @@ Console.WriteLine("\n" + "Composition:");
 
 // Generally composition is preferred over inheritance, as it allows for more flexibility and code reuse.
 
-gof_design_patterns.OOP.Principles.Composition.Car civic =
-    new gof_design_patterns.OOP.Principles.Composition.Car();
+var civic = new gof_design_patterns.OOP.Principles.Composition.Car();
 
 civic.StartCar();
 
@@ -116,10 +114,80 @@ D: Dependency Inversion Principle (DIP): High-level modules should not depend on
 
 /*************************************************************/
 
+Console.WriteLine("\n" + "SOLID Principles:");
+
 // SRP: Single Responsibility Principle (SRP)
 // A class should only do one thing, and do it well.
 // SRP classes can use (borrow) methods from other classes to accomplish its task, but it should not implement raw logic that is not related to its primary responsibility.
 
-Console.WriteLine("\n" + "SOLID Principles::SRP");
+Console.WriteLine("> SRP: A class should only do one thing, and do it well.");
+
+/*************************************************************/
+
+// OCP: Open/Closed Principle (OCP)
+// Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification.
+// Extension without modification.
+
+Console.WriteLine(
+    "> OCP: Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification."
+);
+
+/*************************************************************/
+
+// LSP: Liskov Substitution Principle (LSP)
+
+/*
+Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+*/
+
+Console.WriteLine(
+    "> LSP: Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program."
+);
+
+var rectangle = new gof_design_patterns.OOP.SOLID.LSP.BadExample.Rectangle
+{
+    Width = 10,
+    Height = 5,
+};
+Console.WriteLine("Expected area of rectangle: 50");
+Console.WriteLine("Area of rectangle: " + rectangle.GetArea());
+
+var square = new gof_design_patterns.OOP.SOLID.LSP.Square { SideLength = 10 };
+Console.WriteLine("Expected area of square: 100");
+Console.WriteLine("Area of square: " + square.GetArea());
+
+/*************************************************************/
+
+// ISP: Interface Segregation Principle (ISP)
+// Clients should not be forced to depend on interfaces they do not use.
+Console.WriteLine(
+    "\n" + "> ISP: Clients should not be forced to depend on interfaces they do not use."
+);
+
+var circle = new gof_design_patterns.OOP.SOLID.ISP.BadExample.Circle { Radius = 5 };
+Console.WriteLine("Expected area of circle: " + circle.Area());
+Console.WriteLine("Circle does not have a volume."); // This will throw an exception, as Circle does not have a volume.
+
+var goodCircle = new gof_design_patterns.OOP.SOLID.ISP.Circle { Radius = 5 };
+Console.WriteLine("Expected area of good circle: " + goodCircle.Area());
+
+var sphere = new gof_design_patterns.OOP.SOLID.ISP.Sphere { Radius = 5 };
+Console.WriteLine("Expected area of sphere: " + sphere.Area());
+Console.WriteLine("Expected volume of sphere: " + sphere.Volume());
+
+/*************************************************************/
+
+// DIP: Dependency Inversion Principle (DIP) (or Dependancy Injection)
+// High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces).
+Console.WriteLine(
+    "\n"
+        + "> DIP: High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces)."
+);
+
+var tesla = new gof_design_patterns.OOP.SOLID.DIP.Car(
+    new gof_design_patterns.OOP.SOLID.DIP.ElectricEngine()
+);
+tesla.StartCar();
+tesla.StopCar();
 
 /*************************************************************/
