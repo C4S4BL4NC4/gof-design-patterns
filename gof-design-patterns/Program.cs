@@ -259,3 +259,17 @@ doc.UserRole = UserRoles.Admin;
 doc.Publish(); // Admin can publish, but document is still in draft state
 
 /*************************************************************/
+
+// Strategy Pattern: most useful for implementing algorithms that can be swapped at runtime.
+
+// Consider an application that stores videos.
+// Before storing the video needs to be compressed.
+// The application should be able to compress the video using different algorithms, depending on the user's choice. The Strategy pattern allows the application to choose the compression algorithm at runtime, without changing the code that uses the compression algorithm. and if we need to apply a filter to the video blur, sharpen, etc. we can use the Strategy pattern to choose the filter at runtime.
+
+Console.WriteLine(
+    "\n"
+        + "Strategy Pattern: most useful for implementing algorithms that can be swapped at runtime."
+);
+
+
+/*************************************************************/
