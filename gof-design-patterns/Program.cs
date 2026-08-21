@@ -1,4 +1,5 @@
-﻿using gof_design_patterns.OOP.Principles.Abstraction;
+﻿using gof_design_patterns.OOP.DesignPatterns.Behavioral.State;
+using gof_design_patterns.OOP.Principles.Abstraction;
 using gof_design_patterns.OOP.Principles.Composition;
 using gof_design_patterns.OOP.Principles.Coupling;
 using gof_design_patterns.OOP.Principles.Encapsulation;
@@ -242,5 +243,19 @@ history.Undo();
 Console.WriteLine($"Title: {editor.Title}");
 Console.WriteLine($"Content: {editor.Content}");
 history.ShowHistory();
+
+/*************************************************************/
+
+// State Pattern: most useful for implementing state machines and workflow systems.
+Console.WriteLine(
+    "\n" + "State Pattern: most useful for implementing state machines and workflow systems."
+);
+
+var doc = new Document(UserRoles.Viewer);
+doc.Publish(); // Viewer cannot publish without being in moderation state
+doc.UserRole = UserRoles.Editor;
+doc.Publish(); // Editor cannot publish without being in moderation state
+doc.UserRole = UserRoles.Admin;
+doc.Publish(); // Admin can publish, but document is still in draft state
 
 /*************************************************************/
